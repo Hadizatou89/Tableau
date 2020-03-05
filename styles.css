@@ -1,0 +1,111 @@
+td{
+    line-height: 1px;
+    padding: 3px;
+    
+}
+.noborder {
+    border:none;
+    }
+h1 ,h2{
+    font-size:20px;
+    text-align: center;
+}
+p{
+    font-size: 10px;
+    text-align: center;
+}
+.bleu{
+    background-color:rgb(131, 184, 215);
+    border: 1px solid rgb(88, 184, 240);
+}
+.violet{
+    background-color: rgb(157, 149, 198);
+}
+.jaune{
+    background-color: rgb(240, 249, 193);
+}
+.oranger{
+    background-color:rgb(248, 166, 142) ;
+}
+.orange{
+    background-color: rgb(254, 206, 159);
+}
+.orangec{
+    background-color: rgb(254, 235, 185);
+} 
+.vert{
+    background-color: rgb(205, 235, 200);
+}
+.vertc{
+    background-color: rgb(206, 248, 206);
+}
+.rosef{
+    background-color:rgb(196, 102, 142);
+}
+.rosec{
+    background-color: rgb(230, 138, 148);
+}
+figure img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px; 
+}
+.dec{
+height:25px;
+}
+h3{
+    font-weight: bolder;
+    font-style: oblique;
+}
+thead{
+    display: flex;
+}
+.ima{
+    margin-left: 350px;
+}
+@media all and (max-width: 1024px){
+h1,h2{
+    font-size: 12px; 
+}
+p{
+    font-size: 7px;
+}
+.ima{
+    margin-left: auto;
+}
+thead{
+    display: none;
+}
+figure img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px; 
+}
+h3{
+    font-weight: bolder;
+    font-style: italic;
+}
+}
+@media all and (max-width: 800px){
+    h1,h2{
+        font-size: 7px; 
+    }
+    p{
+        font-size: 3.5px;
+    }
+    .ima{
+        margin-left: auto;
+    }
+    thead{
+        display: none;
+    }
+    figure img{
+        width: 75px;
+        height: 75px;
+        border-radius: 50px; 
+    }
+    h3{
+        font-weight: bold;
+        font-style:normal;
+    }
+    }
